@@ -31,9 +31,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/reveal.js/dist/reveal.css",
+              "node_modules/reveal.js/dist/reset.css",
+              "node_modules/reveal.js/dist/theme/black.css"
             ],
-            "scripts": []
+            "scripts": [  "node_modules/reveal.js/dist/reveal.js",
+              "node_modules/reveal.js/plugin/highlight/highlight.js",
+              "node_modules/reveal.js/plugin/markdown/markdown.js",
+              "node_modules/reveal.js/plugin/notes/notes.js",
+              "node_modules/reveal.js/plugin/search/search.js"]
           },
           "configurations": {
             "production": {
@@ -96,7 +103,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+
+            ]
           }
         },
         "lint": {
